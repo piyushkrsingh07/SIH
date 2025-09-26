@@ -18,7 +18,7 @@ import {
   CheckCircle 
 } from "lucide-react";
 import blueShield from "@/assets/blueshield.png";
-import oceanHero from "@/assets/video.mp4";
+import oceanHero from "@/assets/ocean-hero.jpg";
 
 import { useTranslation } from "react-i18next";
 
