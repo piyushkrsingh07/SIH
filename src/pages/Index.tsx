@@ -25,6 +25,7 @@ import { useTranslation } from "react-i18next";
 const Index = () => {
   const { t } = useTranslation();
 
+  
   const features = [
     {
       icon: Users,
