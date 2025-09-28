@@ -67,14 +67,17 @@ const Index = () => {
       <section 
        className="relative min-h-screen flex items-center justify-center bg-gradient-ocean overflow-hidden">
         {/* Background Video */}
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          src={oceanHero}
-          className="absolute inset-0 w-full h-full object-cover"
-        />
+<video
+
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="absolute inset-0 w-full h-full object-cover"
+>
+  <source src="https://res.cloudinary.com/davf9qtbb/video/upload/v1695651305/sih_video_hb2vup.mp4" type="video/mp4" />
+</video>
+
         <div className="container relative z-10 mx-auto px-4 text-center text-white">
           <div className="flex flex-col items-center mb-8">
             <h1 className="text-5xl text-blue-900 md:text-7xl font-bold mb-4 animate-fade-in">
